@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="3550" name="Order page" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>Test scenarios and test cases for the page&nbsp;https://stg.securewebbilling.net/order-sale.php?optid=75&amp;aff=&amp;page_from=main&amp;id=German%20Shepherd&amp;targetdom=http://trainpetdog.com/German%20Shepherd&amp;mid=&amp;cmversion=4&amp;cmphase=1111&amp;tracker=segment_puppy&amp;referrer=sales-page&amp;cvs=5_4</p>
+]]></details> 
+
+<testcase internalid="3551" name="Form layout">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Test visibility of all inputs, selects and submit button</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Internet connection</p>
+
+<p>Web page https://stg.securewebbilling.net/order-sale.php?optid=75&amp;aff=&amp;page_from=main&amp;id=German%20Shepherd&amp;targetdom=http://trainpetdog.com/German%20Shepherd&amp;mid=&amp;cmversion=4&amp;cmphase=1111&amp;tracker=segment_puppy&amp;referrer=sales-page&amp;cvs=5_4 is visible</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP Open page https://stg.securewebbilling.net/order-sale.php?optid=75&amp;aff=&amp;page_from=main&amp;id=German%20Shepherd&amp;targetdom=http://trainpetdog.com/German%20Shepherd&amp;mid=&amp;cmversion=4&amp;cmphase=1111&amp;tracker=segment_puppy&amp;referrer=sales-page&amp;cvs=5_4</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the heading &quot;Your&nbsp;Details:&quot; in the order form</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Heading &quot;Your&nbsp;Details:&quot; in the order form is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Your&nbsp;First&nbsp;Name&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Your&nbsp;First&nbsp;Name&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Last&nbsp;Name&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Last&nbsp;Name&quot;&nbsp; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;E-Mail&nbsp;Address&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;E-Mail&nbsp;Address&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Phone&nbsp;Number&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Phone&nbsp;Number&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the heading &quot;Contact Address:&quot; in the order form</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Heading &quot;Contact Address:&quot; in the order form is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Street&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Street&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;City&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;City&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Zip&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Iinput with the placeholder &quot;Zip&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the select with the selected value &quot;Country -&nbsp;Please Select&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Select with the selected value &quot;Country -&nbsp;Please Select&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the select with the selected value &quot;State -&nbsp;Please Select&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Select with the selected value &quot;State -&nbsp;Please Select&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the heading &quot;Card Details:&quot; in the order form</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Heading &quot;Card Details:&quot; in the order form is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Name on Card&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Name on Card&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;Credit Card Number&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;Credit Card Number&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the Visa Mastercard image right from the input from card number</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Visa Mastercard image right from the input from card number is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[16]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;MM&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;MM&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[17]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;YY&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;YY&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[18]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the input with the placeholder &quot;CVV&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input with the placeholder &quot;CVV&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[19]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the&nbsp;image right from the input from CVV</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Image right from the input from CVV is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[20]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the checkbox above submit button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Checkbox above submit button is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[21]]></step_number>
+	<actions><![CDATA[<p>Check visibility of the button with text&nbsp; &quot;Click Here To Continue&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Button with text&nbsp; &quot;Click Here To Continue&quot; is visible</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="3574" name="Fill form">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Enter required values in all inputs, selects, and check checkbox</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Internet connection</p>
+
+<p>Web page https://stg.securewebbilling.net/order-sale.php?optid=75&amp;aff=&amp;page_from=main&amp;id=German%20Shepherd&amp;targetdom=http://trainpetdog.com/German%20Shepherd&amp;mid=&amp;cmversion=4&amp;cmphase=1111&amp;tracker=segment_puppy&amp;referrer=sales-page&amp;cvs=5_4 is visible</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP Open page https://stg.securewebbilling.net/order-sale.php?optid=75&amp;aff=&amp;page_from=main&amp;id=German%20Shepherd&amp;targetdom=http://trainpetdog.com/German%20Shepherd&amp;mid=&amp;cmversion=4&amp;cmphase=1111&amp;tracker=segment_puppy&amp;referrer=sales-page&amp;cvs=5_4</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Enter first name in the Your First Name input and wait for the label&nbsp;Your First Name to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>First name has been entered&nbsp;in the Your First Name input and&nbsp;label&nbsp;Your First Name has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Your First Name and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input&nbsp;Your First Name is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter last name in the Last Name input and wait for the label&nbsp;Last Name to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Last name has been entered in the Last Name input and&nbsp;label&nbsp;Last Name has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Last Name and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input&nbsp;Your Last Name is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Enter valid email in the E-Mail Address input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Valid email has been entered in the E-Mail Address input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Enter phone number in the Phone Number input and wait for the label&nbsp;Phone Number to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Phone number has been entered in the Phone Number input and&nbsp;label&nbsp;Phone Number has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Phone Number and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input&nbsp;Phone Number is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Enter street in the Street input and wait for the label&nbsp;Street to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Street has been entered&nbsp;in the Street input and&nbsp;label Street has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Street and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input Street&nbsp;is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Enter city in the City input and wait for the label&nbsp;City to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>City has been entered&nbsp;in the Cityt input and&nbsp;label City has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Click outside the input City and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input City is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Enter zip code in the Zip input and wait for the label Zip to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zip code has been entered&nbsp;in the Zip input and&nbsp;label Zip has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Zip and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input Zip is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Click on the select with value Country - Please Select and choose country (non US or Canada)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Country (non Us or Canada) has been selected</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Wait for the</p>
+
+<ol>
+	<li>label Country to be displayed above Country select</li>
+	<li>green ok icon to be displayed right from&nbsp;Country select</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>label Country has been displayed above Country select</li>
+	<li>green ok icon has been displayed right from&nbsp;Country select</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[16]]></step_number>
+	<actions><![CDATA[<p>Wait for the</p>
+
+<ol>
+	<li>label State to be displayed above State select</li>
+	<li>green ok icon to be displayed right from&nbsp;Country select</li>
+	<li>value in the State select should be Outside United States and Canada</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>label State has been displayed above State select</li>
+	<li>green ok icon has been displayed right from&nbsp;Country select</li>
+	<li>value in the State select is Outside United States and Canada</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[17]]></step_number>
+	<actions><![CDATA[<p>Enter card holder name in the Name on Card input and wait for the label Name on Card to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Card holder name has been entered in the Name on Card input and&nbsp;label Name on Card has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[18]]></step_number>
+	<actions><![CDATA[<p>Click outside the input Name on Card and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input Name on Card&nbsp;is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[19]]></step_number>
+	<actions><![CDATA[<p>Enter card number in the Credit Card Number&nbsp;input and wait for the label Credit Card Number to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>card number has been entered in the Credit Card Number input and&nbsp;label Credit Card Number has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[20]]></step_number>
+	<actions><![CDATA[<p>Enter two digit expiration month in the MM input and wait for the label Expiry date to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Two digit expiration month has been entered in the MM input and&nbsp;label Expiry date has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[21]]></step_number>
+	<actions><![CDATA[<p>Enter two digit expiration year in the YY&nbsp;input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Two digit expiration year has been entered in the YY&nbsp;input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[22]]></step_number>
+	<actions><![CDATA[<p>Enter cvv code in the CVV input and wait for the label CVV to be displayed above input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Cvv code has been entered in the CVV input and&nbsp;label CVV has been displayed above input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[23]]></step_number>
+	<actions><![CDATA[<p>Click outside the input CVV and validate that green ok icon is displayed right from the input</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Input CVV is not in focus and green ok icon has been displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[24]]></step_number>
+	<actions><![CDATA[<p>Check checkbox below&nbsp;inputs and wait for the green ok icon to be displayed right from checkbox</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Checkbox below&nbsp;inputs has been checked and&nbsp;ok icon has been displayed right from checkbox</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
